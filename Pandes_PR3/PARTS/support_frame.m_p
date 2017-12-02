@@ -1,0 +1,38 @@
+﻿                    MASS PROPERTIES OF THE PART SUPPORT_FRAME
+
+                         VOLUME =  3.7797670e+00 INCH^3
+                   SURFACE AREA =  4.1558664e+01 INCH^2
+                        DENSITY =  9.7912065e-02 POUND / INCH^3
+                           MASS =  3.7008479e-01 POUND 
+
+       CENTER OF GRAVITY with respect to _SUPPORT_FRAME coordinate frame:
+X   Y   Z           0.0000000e+00  0.0000000e+00  1.2212823e+00  INCH
+
+   INERTIA with respect to _SUPPORT_FRAME coordinate frame:  (POUND * INCH^2)
+
+INERTIA TENSOR:
+Ixx Ixy Ixz         1.3082951e+00  0.0000000e+00  0.0000000e+00
+Iyx Iyy Iyz         0.0000000e+00  1.3082950e+00  0.0000000e+00
+Izx Izy Izz         0.0000000e+00  0.0000000e+00  3.3264337e-01
+
+  INERTIA at CENTER OF GRAVITY with respect to _SUPPORT_FRAME coordinate frame:
+                                                              (POUND * INCH^2)  
+INERTIA TENSOR:
+Ixx Ixy Ixz         7.5630236e-01  0.0000000e+00  0.0000000e+00
+Iyx Iyy Iyz         0.0000000e+00  7.5630229e-01  0.0000000e+00
+Izx Izy Izz         0.0000000e+00  0.0000000e+00  3.3264337e-01
+
+                 PRINCIPAL MOMENTS OF INERTIA:  (POUND * INCH^2)
+I1  I2  I3          3.3264337e-01  7.5630222e-01  7.5630243e-01
+
+       ROTATION MATRIX from _SUPPORT_FRAME orientation to PRINCIPAL AXES:
+                       0.00000        1.00000        0.00000
+                       0.00000        0.00000        1.00000
+                       1.00000        0.00000        0.00000
+
+  ROTATION ANGLES from _SUPPORT_FRAME orientation to PRINCIPAL AXES (degrees):
+angles about x  y  z  -90.000          0.000        -90.000 
+
+                RADII OF GYRATION with respect to PRINCIPAL AXES:
+R1  R2  R3          9.4806654e-01  1.4295425e+00  1.4295427e+00  INCH
+
