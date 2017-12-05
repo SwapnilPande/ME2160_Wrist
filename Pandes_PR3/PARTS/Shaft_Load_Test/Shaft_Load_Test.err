@@ -1,0 +1,18 @@
+------------------------------------------------------------
+Creo Simulate Structure Version P-10-28:spg
+Error Report
+Tue Dec 05, 2017   12:28:52
+------------------------------------------------------------
+An internal error has occurred in file S:\sim\engine\src\saradsm\saradsminput.cxx, line 565.
+*** A fatal error has occurred. ***
+
+Integrated mode error checking found error(s) in the model
+after creating the Creo Simulate database.
+Assertion failed: analysis
+
+*** A fatal error has occurred. ***
+An internal error has occurred in file S:\sim\engine\src\common\main\run_analysis.cxx, line 54.
+
+An internal engine error has occurred.  Please be sure
+to run error checking before you run this study.  If
+you have run error checking, then contact Customer Support.

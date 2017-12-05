@@ -1,0 +1,49 @@
+------------------------------------------------------------
+Creo Simulate Structure Version P-10-28:spg
+Summary for Design Study "Shaft_Load_Test"
+Tue Dec 05, 2017   12:28:52
+------------------------------------------------------------
+
+Run Settings
+   Memory allocation for block solver: 512.0     
+
+Parallel Processing Status
+   Parallel task limit for current run:            4
+   Parallel task limit for current platform:      64
+   Number of processors detected automatically:    4
+Checking the model before creating elements...
+These checks take into account the fact that AutoGEM will
+automatically create elements in volumes with material
+properties, on surfaces with shell properties, and on curves
+with beam section properties.
+One or more surfaces have a load but are not part of any elements.One or more surfaces have a load but are not part of any elements.
+The design study terminated abnormally.
+
+Integrated mode error checking found error(s) in the model
+after creating the Creo Simulate database.
+
+------------------------------------------------------------
+
+Memory and Disk Usage:
+
+   Machine Type: Windows 64 
+   RAM Allocation for Solver (megabytes): 512.0
+
+   Total Elapsed Time (seconds): 1.38      
+   Total CPU Time     (seconds): 0.98      
+   Maximum Memory Usage (kilobytes): 67698     
+   Working Directory Disk Usage (kilobytes): 0         
+
+   Results Directory Size (kilobytes):
+   40985 .\Shaft_Load_Test
+
+------------------------------------------------------------
+Run Completed with Fatal Error
+Tue Dec 05, 2017   12:28:53
+------------------------------------------------------------
+
+The design study terminated abnormally.
+
+An internal engine error has occurred.  Please be sure
+to run error checking before you run this study.  If
+you have run error checking, then contact Customer Support.

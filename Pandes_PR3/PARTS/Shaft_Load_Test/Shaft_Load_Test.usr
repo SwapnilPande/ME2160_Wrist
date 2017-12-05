@@ -1,0 +1,21 @@
+#PID -1Id 529831919
+#ErrProAddr -1 5 303 3 56 5 17 303 
+#ErrProAddr -1 5 331 3 56 5 17 331 
+#ErrProAddr -1 5 328 3 56 5 17 328 
+#ErrProAddr -1 5 305 3 56 5 17 305 
+#ErrProAddr -1 5 2874 1 59 3971 
+#ErrProAddr -1 5 999 1 288 999 
+#ErrProAddr -1 5 417 1 292 1508 
+#PID 5304
+#ErrMsgId 411
+#ErrProAddr -1 5 49 1 263 49 
+#ErrMsgId 411
+#ErrProAddr -1 5 51 1 263 51 
+#ErrMsgId 545542792
+#ErrMsgStr
+
+Integrated mode error checking found error(s) in the model
+after creating the Creo Simulate database.
+
+#ErrMsgEnd
+#ErrMsgId 369
