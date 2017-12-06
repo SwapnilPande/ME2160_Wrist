@@ -1,0 +1,361 @@
+------------------------------------------------------------
+Creo Simulate Structure Version P-10-28:spg
+Log for Design Study "Shaft_Bending_Stress_Analysis"
+Tue Dec 05, 2017   14:06:15
+------------------------------------------------------------
+
+Engine Command with the specified command line options:
+
+ C:\Program Files\PTC\Creo 2.0\Common Files\M110\mech\x86e_win64\bin\msengine.exe  Shaft_Bending_Stress_Analysis  -i  .  -w  .  -solram  512  -sturm  default  -num_threads  ALL 
+
+Begin Creating Database for Design Study
+Tue Dec 05, 2017   14:06:15
+   Elapsed Time       (sec):       0.30
+   CPU Time           (sec):       0.16
+   Memory Usage        (kb):      31415
+   Work Dir Disk Usage (kb):          0
+
+   Step Elapsed Time  (sec):       0.08
+   Step CPU Time      (sec):       0.00
+
+Begin Integrated Mode Error Checking
+Tue Dec 05, 2017   14:06:15
+   Elapsed Time       (sec):       0.38
+   CPU Time           (sec):       0.16
+   Memory Usage        (kb):      31415
+   Work Dir Disk Usage (kb):          0
+Checking the model before creating elements...
+These checks take into account the fact that AutoGEM will
+automatically create elements in volumes with material
+properties, on surfaces with shell properties, and on curves
+with beam section properties.
+
+   Step Elapsed Time  (sec):       0.11
+   Step CPU Time      (sec):       0.02
+
+Begin Generating Elements
+Tue Dec 05, 2017   14:06:15
+   Elapsed Time       (sec):       0.49
+   CPU Time           (sec):       0.17
+   Memory Usage        (kb):      31427
+   Work Dir Disk Usage (kb):          0
+
+____________________________________________________________
+
+          AutoGEM Settings
+
+  Isolate Surface Features: 
+
+  [x] Reentrant Corners
+  [x] Point Loads
+  [x] Point Constraints
+  [x] Point Heat Loads
+  [x] Point Prescribed Temperatures
+  [x] Point Convection Conditions
+
+ ------------------------------------------
+
+  [x] Insert Points
+  [x] Create Links Where Needed
+  [x] Move or Delete Existing Points
+  [x] Modify or Delete Existing Elements
+  [ ] Detailed Fillet Modeling
+  [ ] Display AutoGEM Messages
+  [ ] Automatic Interrupt
+
+ ------------------------------------------
+
+  Shell Element Type:   Quad and Tri
+  Solid Element Type:   Brick, Wedge, Tetra
+
+  Allowable Angles (Degrees):
+    Edge    Min:   5.0  Max:  175.0
+    Face    Min:   5.0  Max:  175.0
+
+  Max Allowable Edge Turn (Degrees):  95.0
+
+  Max Allowable Aspect Ratio:  30.0
+
+____________________________________________________________
+
+Working on 1 volume(s) ...
+Pre-processing features for 21 surfaces ...
+Pre-processing boundary features ...
+Optimizing boundary point locations ...
+Detecting thin features on the volume ...
+Pre-processing volume features ...
+Searching for existing solid elements inside the volume ...
+Found 0 existing solid element(s) inside the volume.
+Creating solid elements ...
+Optimizing elements ...
+Adding 1873 solid elements to model ...
+Displaying Elements ...
+
+____________________________________________________________
+
+          AutoGEM Summary
+
+  Entities Created:
+
+    Beam:         0       Edge:              3149
+    Tri:          0       Face:              4339
+    Quad:         0       Face-Face Link:    0
+    Tetra:     1873       Edge-Face Link:    0
+    Wedge:        0
+    Brick:        0
+
+ ----------------------------------------------------
+
+  Criteria Satisfied:
+
+  Angles (Degrees):
+    Edge  Min:   5.0    Max:  170.6
+    Face  Min:   5.0    Max:  173.4
+
+  Max Aspect Ratio: 25.6
+
+  Elapsed Time:    0.2 min    CPU Time:   0.2 min
+
+____________________________________________________________
+
+
+   Step Elapsed Time  (sec):      14.02
+   Step CPU Time      (sec):      13.30
+
+Begin Integrated Mode Error Checking
+Tue Dec 05, 2017   14:06:29
+   Elapsed Time       (sec):      14.51
+   CPU Time           (sec):      13.47
+   Memory Usage        (kb):     170575
+   Work Dir Disk Usage (kb):          0
+Checking the model after creating elements...
+No errors were found in the model.
+   Step Elapsed Time  (sec):       0.45
+   Step CPU Time      (sec):       0.19
+
+Begin Engine Bookkeeping
+Tue Dec 05, 2017   14:06:30
+   Elapsed Time       (sec):      14.96
+   CPU Time           (sec):      13.66
+   Memory Usage        (kb):     170575
+   Work Dir Disk Usage (kb):          0
+
+   Step Elapsed Time  (sec):       0.26
+   Step CPU Time      (sec):       0.17
+
+Begin Analysis: "Shaft_Bending_Stress_Analysis"
+Tue Dec 05, 2017   14:06:30
+   Elapsed Time       (sec):      15.22
+   CPU Time           (sec):      13.83
+   Memory Usage        (kb):     184611
+   Work Dir Disk Usage (kb):          0
+
+   Step Elapsed Time  (sec):       0.42
+   Step CPU Time      (sec):       0.22
+
+Begin Mass Calculation
+Tue Dec 05, 2017   14:06:30
+   Elapsed Time       (sec):      15.64
+   CPU Time           (sec):      14.05
+   Memory Usage        (kb):     184611
+   Work Dir Disk Usage (kb):          0
+
+   Step Elapsed Time  (sec):       0.61
+   Step CPU Time      (sec):       0.11
+
+Begin P-Loop Pass 1
+Tue Dec 05, 2017   14:06:31
+   Elapsed Time       (sec):      16.24
+   CPU Time           (sec):      14.15
+   Memory Usage        (kb):     184611
+   Work Dir Disk Usage (kb):          0
+
+   Step Elapsed Time  (sec):       0.30
+   Step CPU Time      (sec):       0.09
+
+Begin Element Calculations, Pass 1
+Tue Dec 05, 2017   14:06:31
+   Elapsed Time       (sec):      16.54
+   CPU Time           (sec):      14.25
+   Memory Usage        (kb):     199852
+   Work Dir Disk Usage (kb):          0
+
+   Step Elapsed Time  (sec):       0.40
+   Step CPU Time      (sec):       0.28
+
+Begin Global Matrix Assembly, Pass 1
+Tue Dec 05, 2017   14:06:32
+   Elapsed Time       (sec):      16.94
+   CPU Time           (sec):      14.53
+   Memory Usage        (kb):     203098
+   Work Dir Disk Usage (kb):      36864
+
+   Step Elapsed Time  (sec):       0.09
+   Step CPU Time      (sec):       0.00
+
+Begin Equation Solve, Pass 1
+Tue Dec 05, 2017   14:06:32
+   Elapsed Time       (sec):      17.03
+   CPU Time           (sec):      14.53
+   Memory Usage        (kb):     205212
+   Work Dir Disk Usage (kb):      36864
+
+   Step Elapsed Time  (sec):       0.71
+   Step CPU Time      (sec):       0.91
+
+Begin Load Calculations
+Tue Dec 05, 2017   14:06:33
+   Elapsed Time       (sec):      17.74
+   CPU Time           (sec):      15.44
+   Memory Usage        (kb):     705242
+   Work Dir Disk Usage (kb):      36864
+
+   Step Elapsed Time  (sec):       0.10
+   Step CPU Time      (sec):       0.03
+
+Begin Post-Processing Calculations, Pass 1
+Tue Dec 05, 2017   14:06:33
+   Elapsed Time       (sec):      17.84
+   CPU Time           (sec):      15.47
+   Memory Usage        (kb):     705242
+   Work Dir Disk Usage (kb):      36864
+
+   Step Elapsed Time  (sec):       0.67
+   Step CPU Time      (sec):       0.58
+
+Begin Convergence Check Pass 1
+Tue Dec 05, 2017   14:06:33
+   Elapsed Time       (sec):      18.51
+   CPU Time           (sec):      16.05
+   Memory Usage        (kb):     705242
+   Work Dir Disk Usage (kb):      36864
+
+   Step Elapsed Time  (sec):       0.55
+   Step CPU Time      (sec):       0.33
+
+Begin Strain Energy Calculations
+Tue Dec 05, 2017   14:06:34
+   Elapsed Time       (sec):      19.06
+   CPU Time           (sec):      16.38
+   Memory Usage        (kb):     705242
+   Work Dir Disk Usage (kb):      36864
+
+   Step Elapsed Time  (sec):       0.20
+   Step CPU Time      (sec):       0.08
+
+Begin P-Loop Pass 2
+Tue Dec 05, 2017   14:06:34
+   Elapsed Time       (sec):      19.26
+   CPU Time           (sec):      16.45
+   Memory Usage        (kb):     705242
+   Work Dir Disk Usage (kb):      36864
+
+   Step Elapsed Time  (sec):       0.26
+   Step CPU Time      (sec):       0.11
+
+Begin Element Calculations, Pass 2
+Tue Dec 05, 2017   14:06:34
+   Elapsed Time       (sec):      19.52
+   CPU Time           (sec):      16.56
+   Memory Usage        (kb):     708489
+   Work Dir Disk Usage (kb):      36864
+
+   Step Elapsed Time  (sec):       3.36
+   Step CPU Time      (sec):       2.94
+
+Begin Global Matrix Assembly, Pass 2
+Tue Dec 05, 2017   14:06:38
+   Elapsed Time       (sec):      22.88
+   CPU Time           (sec):      19.50
+   Memory Usage        (kb):     709614
+   Work Dir Disk Usage (kb):     108544
+
+   Step Elapsed Time  (sec):       0.10
+   Step CPU Time      (sec):       0.02
+
+Begin Equation Solve, Pass 2
+Tue Dec 05, 2017   14:06:38
+   Elapsed Time       (sec):      22.98
+   CPU Time           (sec):      19.52
+   Memory Usage        (kb):     711241
+   Work Dir Disk Usage (kb):     108544
+
+   Step Elapsed Time  (sec):       1.99
+   Step CPU Time      (sec):       3.48
+
+Begin Load Calculations
+Tue Dec 05, 2017   14:06:40
+   Elapsed Time       (sec):      24.97
+   CPU Time           (sec):      23.00
+   Memory Usage        (kb):     713208
+   Work Dir Disk Usage (kb):     108544
+
+   Step Elapsed Time  (sec):       0.12
+   Step CPU Time      (sec):       0.06
+
+Begin Post-Processing Calculations, Pass 2
+Tue Dec 05, 2017   14:06:40
+   Elapsed Time       (sec):      25.09
+   CPU Time           (sec):      23.06
+   Memory Usage        (kb):     713208
+   Work Dir Disk Usage (kb):     108544
+
+   Step Elapsed Time  (sec):       1.26
+   Step CPU Time      (sec):       1.20
+
+Begin Convergence Check Pass 2
+Tue Dec 05, 2017   14:06:41
+   Elapsed Time       (sec):      26.35
+   CPU Time           (sec):      24.27
+   Memory Usage        (kb):     713437
+   Work Dir Disk Usage (kb):     108544
+
+   Step Elapsed Time  (sec):       0.77
+   Step CPU Time      (sec):       0.61
+
+Begin Displacement and Stress Calculation
+Tue Dec 05, 2017   14:06:42
+   Elapsed Time       (sec):      27.12
+   CPU Time           (sec):      24.88
+   Memory Usage        (kb):     714629
+   Work Dir Disk Usage (kb):     108544
+
+   Step Elapsed Time  (sec):       3.35
+   Step CPU Time      (sec):       0.94
+
+Begin Reaction Calculation
+Tue Dec 05, 2017   14:06:45
+   Elapsed Time       (sec):      30.47
+   CPU Time           (sec):      25.81
+   Memory Usage        (kb):     715734
+   Work Dir Disk Usage (kb):     108544
+
+   Step Elapsed Time  (sec):       0.54
+   Step CPU Time      (sec):       0.31
+
+Begin Strain Energy Calculations
+Tue Dec 05, 2017   14:06:46
+   Elapsed Time       (sec):      31.01
+   CPU Time           (sec):      26.13
+   Memory Usage        (kb):     718073
+   Work Dir Disk Usage (kb):     108544
+
+   Step Elapsed Time  (sec):       0.46
+   Step CPU Time      (sec):       0.31
+
+Completed P-Loop
+Tue Dec 05, 2017   14:06:46
+   Elapsed Time       (sec):      31.46
+   CPU Time           (sec):      26.44
+   Memory Usage        (kb):     718073
+   Work Dir Disk Usage (kb):     108544
+
+   Step Elapsed Time  (sec):       0.58
+   Step CPU Time      (sec):       0.03
+
+Completed Analysis: Shaft_Bending_Stress_Analysis
+Tue Dec 05, 2017   14:06:47
+   Elapsed Time       (sec):      32.05
+   CPU Time           (sec):      26.47
+   Memory Usage        (kb):     718073
+   Work Dir Disk Usage (kb):     108544

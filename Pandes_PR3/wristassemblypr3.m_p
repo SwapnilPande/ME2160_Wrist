@@ -1,0 +1,94 @@
+﻿                MASS PROPERTIES OF THE ASSEMBLY WRISTASSEMBLYPR3
+
+                         VOLUME =  1.7664682e+01 INCH^3
+                   SURFACE AREA =  1.9868264e+02 INCH^2
+                AVERAGE DENSITY =  7.2594518e-02 POUND / INCH^3
+                           MASS =  1.2823591e+00 POUND 
+
+      CENTER OF GRAVITY with respect to _WRISTASSEMBLYPR3 coordinate frame:
+X   Y   Z          -2.2276367e-02  4.6578461e-02  7.4695498e-01  INCH
+
+  INERTIA with respect to _WRISTASSEMBLYPR3 coordinate frame:  (POUND * INCH^2)
+
+INERTIA TENSOR:
+Ixx Ixy Ixz         1.7512106e+01  3.4969667e-02  2.7985451e-01
+Iyx Iyy Iyz         3.4969667e-02  1.7512062e+01 -1.0312027e-01
+Izx Izy Izz         2.7985451e-01 -1.0312027e-01  1.1137873e+00
+
+INERTIA at CENTER OF GRAVITY with respect to _WRISTASSEMBLYPR3 coordinate frame:
+                                                                (POUND * INCH^2)
+INERTIA TENSOR:
+Ixx Ixy Ixz         1.6793843e+01  3.3639093e-02  2.5851677e-01
+Iyx Iyy Iyz         3.3639093e-02  1.6795944e+01 -5.8504411e-02
+Izx Izy Izz         2.5851677e-01 -5.8504411e-02  1.1103688e+00
+
+                 PRINCIPAL MOMENTS OF INERTIA:  (POUND * INCH^2)
+I1  I2  I3          1.1058865e+00  1.6764450e+01  1.6829819e+01
+
+      ROTATION MATRIX from _WRISTASSEMBLYPR3 orientation to PRINCIPAL AXES:
+                      -0.01648       -0.69641       -0.71745
+                       0.00376        0.71750       -0.69655
+                       0.99986       -0.01418       -0.00921
+
+ ROTATION ANGLES from _WRISTASSEMBLYPR3 orientation to PRINCIPAL AXES (degrees):
+angles about x  y  z   90.757        -45.844         91.356 
+
+                RADII OF GYRATION with respect to PRINCIPAL AXES:
+R1  R2  R3          9.2864654e-01  3.6156786e+00  3.6227210e+00  INCH
+
+
+
+                  MASS PROPERTIES OF COMPONENTS OF THE ASSEMBLY
+         (in assembly units and the _WRISTASSEMBLYPR3 coordinate frame)
+
+                                     MATERIAL
+           DENSITY        MASS       C.G.:  X        Y         Z
+
+    SUPPORT_FRAME                    AL6061
+         9.79121e-02  2.74332e-01  5.15873e-04 -5.15875e-04  7.11947e-01
+    SUPPORT_FRAME_CAP                AL6061
+         9.79121e-02  1.28329e-01  3.75664e-03  1.56210e-03  4.14949e+00
+    60355K701_BALL_BEARING           UNKNOWN
+         4.19976e-01  1.82530e-02  0.00000e+00  0.00000e+00  3.48000e-01
+    ASM0003                          UNKNOWN
+         3.41897e-01  1.48595e-02  2.65138e-03  2.66267e-03  4.25800e+00
+    KEYED_SHAFT                      AL6061
+         9.79121e-02  2.13452e-02  5.01387e-04  1.36260e-03  2.50676e+00
+    SLIDER                           UNKNOWN
+         1.84161e-01  2.37835e-01 -1.13028e-01  1.13105e-01  2.63051e+00
+    6381K409_MULTIPURPOSE_SLEEVE_BR  UNKNOWN
+         1.00000e+00  6.90291e-03  0.00000e+00  0.00000e+00  5.71000e-01
+    3434T150_PULLEY_FOR_WIRE_ROPE    UNKNOWN
+         5.73078e-02  2.36402e-02  0.00000e+00  0.00000e+00  8.52971e-01
+    PULLEYLOCKER                     AL6061
+         9.79121e-02  4.62191e-02  0.00000e+00  0.00000e+00  1.27498e+00
+    6325K950_MTL_GEAR--14-_5_DEG_PR  STEEL
+         2.82771e-01  2.85525e-02  0.00000e+00  0.00000e+00  3.88649e+00
+    HAND_INTERFACE                   AL6061
+         9.79121e-02  1.02852e-01  0.00000e+00  0.00000e+00  5.06156e+00
+    CASING                           ABS_PLASTIC
+         3.09250e-02  3.04238e-01  7.73151e-02  2.23169e-02 -4.92953e+00
+    PRT0041                          UNKNOWN
+         1.00000e+00  6.55026e-03  2.99349e-04  1.07979e+00  3.90997e+00
+    PRT0041                          UNKNOWN
+         1.00000e+00  6.55026e-03 -1.07979e+00  2.99349e-04  3.90997e+00
+    PRT0041                          UNKNOWN
+         1.00000e+00  6.55026e-03 -2.99349e-04 -1.07979e+00  3.90997e+00
+    PRT0041                          UNKNOWN
+         1.00000e+00  6.55026e-03  1.07979e+00 -2.99349e-04  3.90997e+00
+    PRT0042                          UNKNOWN
+         1.00000e+00  4.12659e-03  9.55786e-01 -6.62014e-04  3.90998e+00
+    PRT0042                          UNKNOWN
+         1.00000e+00  4.12659e-03  6.62014e-04  9.55786e-01  3.90998e+00
+    PRT0042                          UNKNOWN
+         1.00000e+00  4.12659e-03 -9.55786e-01  6.62014e-04  3.90998e+00
+    PRT0042                          UNKNOWN
+         1.00000e+00  4.12659e-03 -6.62014e-04 -9.55786e-01  3.90998e+00
+    PRT0043                          UNKNOWN
+         1.00000e+00  1.21972e-02 -8.43337e-01  8.43375e-01  2.24994e+00
+    PRT0043                          UNKNOWN
+         1.00000e+00  1.21972e-02 -8.42498e-01  8.44222e-01  3.91007e+00
+    PRT0044                          UNKNOWN
+         1.00000e+00  3.94923e-03 -6.73869e-01  6.74053e-01  2.24992e+00
+    PRT0044                          UNKNOWN
+         1.00000e+00  3.94923e-03 -6.72649e-01  6.75282e-01  3.91008e+00

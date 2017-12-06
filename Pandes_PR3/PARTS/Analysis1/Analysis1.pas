@@ -1,58 +1,58 @@
 ------------------------------------------------------------
 Creo Simulate Structure Version P-10-28:spg
 Diagnostic Log
-Tue Dec 05, 2017   12:34:21
+Tue Dec 05, 2017   14:01:05
 ------------------------------------------------------------
 
 Begin Creating Database for Design Study
-Tue Dec 05, 2017   12:34:21
+Tue Dec 05, 2017   14:01:05
 
 Begin Integrated Mode Error Checking
-Tue Dec 05, 2017   12:34:21
+Tue Dec 05, 2017   14:01:05
 
 Begin Generating Elements
-Tue Dec 05, 2017   12:34:22
+Tue Dec 05, 2017   14:01:05
 
 Begin Integrated Mode Error Checking
-Tue Dec 05, 2017   12:34:22
+Tue Dec 05, 2017   14:01:06
 
 Begin Engine Bookkeeping
-Tue Dec 05, 2017   12:34:23
+Tue Dec 05, 2017   14:01:06
 
 Begin Analysis: "Analysis1"
-Tue Dec 05, 2017   12:34:23
+Tue Dec 05, 2017   14:01:07
 
 Using Sparse Solver
 
 Begin Mass Calculation
-Tue Dec 05, 2017   12:34:23
+Tue Dec 05, 2017   14:01:07
 
 Begin P-Loop Pass 1
-Tue Dec 05, 2017   12:34:23
+Tue Dec 05, 2017   14:01:08
 
 Begin Processing Multi-Point Constraints
-Tue Dec 05, 2017   12:34:23
+Tue Dec 05, 2017   14:01:08
 
 Begin Matrix Profile Minimization
-Tue Dec 05, 2017   12:34:23
+Tue Dec 05, 2017   14:01:08
 
 Begin Element Calculations, Pass 1
-Tue Dec 05, 2017   12:34:23
+Tue Dec 05, 2017   14:01:08
 
 Begin Global Matrix Assembly, Pass 1
-Tue Dec 05, 2017   12:34:24
+Tue Dec 05, 2017   14:01:08
 
 Begin Equation Solve, Pass 1
-Tue Dec 05, 2017   12:34:24
+Tue Dec 05, 2017   14:01:08
 
-Number of equations: 2805
-Average bandwidth:   124.483
-Maximum bandwidth:   363
-Size of global matrix profile (mb): 2.79341
-Number of terms in global matrix profile: 349176      
-Minimum recommended solram for direct solver: 2
+Number of equations: 29994
+Average bandwidth:   194.187
+Maximum bandwidth:   867
+Size of global matrix profile (mb): 46.5955
+Number of terms in global matrix profile: 5824434     
+Minimum recommended solram for direct solver: 3
 
-Size of element file (mb): 2.13744
+Size of element file (mb): 27.4207
 Maximum element matrix size (kb): 14.64
 Average element matrix size (kb): 14.64
 
@@ -103,66 +103,66 @@ greater than the memory limits set for your operating
 system.
 
 Begin Load Calculations
-Tue Dec 05, 2017   12:34:24
+Tue Dec 05, 2017   14:01:09
 
 Begin Post-Processing Calculations, Pass 1
-Tue Dec 05, 2017   12:34:24
+Tue Dec 05, 2017   14:01:09
 
 Begin Convergence Check Pass 1
-Tue Dec 05, 2017   12:34:24
+Tue Dec 05, 2017   14:01:10
 
 Begin Strain Energy Calculations
-Tue Dec 05, 2017   12:34:24
+Tue Dec 05, 2017   14:01:10
 
 Begin P-Loop Pass 2
-Tue Dec 05, 2017   12:34:24
+Tue Dec 05, 2017   14:01:11
 
 Begin Processing Multi-Point Constraints
-Tue Dec 05, 2017   12:34:24
+Tue Dec 05, 2017   14:01:11
 
 Begin Matrix Profile Minimization
-Tue Dec 05, 2017   12:34:24
+Tue Dec 05, 2017   14:01:11
 
 Begin Element Calculations, Pass 2
-Tue Dec 05, 2017   12:34:25
+Tue Dec 05, 2017   14:01:11
 
 Begin Global Matrix Assembly, Pass 2
-Tue Dec 05, 2017   12:34:25
+Tue Dec 05, 2017   14:01:14
 
 Begin Equation Solve, Pass 2
-Tue Dec 05, 2017   12:34:25
+Tue Dec 05, 2017   14:01:14
 
-Number of equations: 3414
-Average bandwidth:   135.632
-Maximum bandwidth:   456
-Size of global matrix profile (mb): 3.70438
-Number of terms in global matrix profile: 463047      
-Minimum recommended solram for direct solver: 2
+Number of equations: 66189
+Average bandwidth:   305.723
+Maximum bandwidth:   1323
+Size of global matrix profile (mb): 161.884
+Number of terms in global matrix profile: 20235498    
+Minimum recommended solram for direct solver: 7
 
-Size of element file (mb): 3.30934
-Maximum element matrix size (kb): 255.024
-Average element matrix size (kb): 22.6667
+Size of element file (mb): 93.6571
+Maximum element matrix size (kb): 982.08
+Average element matrix size (kb): 50.0038
 
 Begin Load Calculations
-Tue Dec 05, 2017   12:34:25
+Tue Dec 05, 2017   14:01:15
 
 Begin Post-Processing Calculations, Pass 2
-Tue Dec 05, 2017   12:34:25
+Tue Dec 05, 2017   14:01:15
 
 Begin Convergence Check Pass 2
-Tue Dec 05, 2017   12:34:25
+Tue Dec 05, 2017   14:01:17
 
 Begin Displacement and Stress Calculation
-Tue Dec 05, 2017   12:34:25
+Tue Dec 05, 2017   14:01:17
 
 Begin Reaction Calculation
-Tue Dec 05, 2017   12:34:26
+Tue Dec 05, 2017   14:01:20
 
 Begin Strain Energy Calculations
-Tue Dec 05, 2017   12:34:26
+Tue Dec 05, 2017   14:01:21
 
 Completed P-Loop
-Tue Dec 05, 2017   12:34:26
+Tue Dec 05, 2017   14:01:21
 
 Completed Analysis: Analysis1
-Tue Dec 05, 2017   12:34:27
+Tue Dec 05, 2017   14:01:22

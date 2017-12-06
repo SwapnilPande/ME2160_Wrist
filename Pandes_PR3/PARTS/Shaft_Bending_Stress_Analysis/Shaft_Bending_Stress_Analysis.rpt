@@ -1,0 +1,192 @@
+------------------------------------------------------------
+Creo Simulate Structure Version P-10-28:spg
+Summary for Design Study "Shaft_Bending_Stress_Analysis"
+Tue Dec 05, 2017   14:06:15
+------------------------------------------------------------
+
+Run Settings
+   Memory allocation for block solver: 512.0     
+
+Parallel Processing Status
+   Parallel task limit for current run:            4
+   Parallel task limit for current platform:      64
+   Number of processors detected automatically:    4
+Checking the model before creating elements...
+These checks take into account the fact that AutoGEM will
+automatically create elements in volumes with material
+properties, on surfaces with shell properties, and on curves
+with beam section properties.
+   Generate elements automatically.
+Checking the model after creating elements...
+No errors were found in the model.
+Creo Simulate Structure Model Summary
+
+   Principal System of Units: Inch lbm Second (Pro/E Default)
+
+   Length:          in
+   Mass:            lbm
+   Time:            sec
+   Temperature:     F
+
+   Model Type: Three Dimensional
+
+   Points:                684
+   Edges:                3149
+   Faces:                4339
+
+   Springs:                 0
+   Masses:                  0
+   Beams:                   0
+   Shells:                  0
+   Solids:               1873
+
+   Elements:             1873
+
+------------------------------------------------------------
+
+Standard Design Study
+
+Static Analysis "Shaft_Bending_Stress_Analysis":
+
+   Convergence Method: Single-Pass Adaptive
+   Plotting Grid:      4
+
+   Convergence Loop Log:                         (14:06:31)
+
+   >> Pass  1 <<
+         Calculating Element Equations           (14:06:31)
+            Total Number of Equations:   29994
+            Maximum Edge Order:              3
+         Solving Equations                       (14:06:32)
+         Post-Processing Solution                (14:06:33)
+         Checking Convergence                    (14:06:33)
+         Resource Check                          (14:06:34)
+            Elapsed Time     (sec):      19.24
+            CPU Time         (sec):      16.45
+            Memory Usage      (kb):     705242
+            Wrk Dir Dsk Usage (kb):      36864
+
+   >> Pass  2 <<
+         Calculating Element Equations           (14:06:34)
+            Total Number of Equations:   66189
+            Maximum Edge Order:              8
+         Solving Equations                       (14:06:38)
+         Post-Processing Solution                (14:06:40)
+         Checking Convergence                    (14:06:41)
+         Calculating Disp and Stress Results     (14:06:42)
+
+         RMS Stress Error Estimates:
+
+         Load Set          Stress Error  % of Max Prin Str
+         ----------------  ------------  -----------------
+         LoadSet1           5.71e+06       0.9% of  6.57e+08
+
+         Resource Check                          (14:06:46)
+            Elapsed Time     (sec):      31.42
+            CPU Time         (sec):      26.44
+            Memory Usage      (kb):     718073
+            Wrk Dir Dsk Usage (kb):     108544
+
+   Total Mass of Model:  2.146706e-02
+
+   Total Cost of Model:  0.000000e+00
+
+   Mass Moments of Inertia about WCS Origin:
+
+     Ixx:  1.44454e-01
+     Ixy: -3.43835e-09  Iyy:  1.67406e-04
+     Ixz: -6.88044e-11  Iyz:  8.55428e-05  Izz:  1.44457e-01
+
+   Principal MMOI and Principal Axes Relative to WCS Origin:
+
+            Max Prin           Mid Prin           Min Prin
+           1.44457e-01        1.44454e-01        1.67355e-04
+
+   WCS X: -2.09269e-05        1.00000e+00        2.38297e-08
+   WCS Y:  5.92854e-04       -1.14231e-08        1.00000e+00
+   WCS Z:  1.00000e+00        2.09269e-05       -5.92854e-04
+
+   Center of Mass Location Relative to WCS Origin:
+                  ( 5.57894e-08,  2.23799e+00, -1.44368e-03)
+
+   Mass Moments of Inertia about the Center of Mass:
+
+     Ixx:  3.69337e-02
+     Ixy: -7.58052e-10  Iyy:  1.67361e-04
+     Ixz: -7.05334e-11  Iyz:  1.61841e-05  Izz:  3.69371e-02
+
+   Principal MMOI and Principal Axes Relative to COM:
+
+            Max Prin           Mid Prin           Min Prin
+           3.69371e-02        3.69337e-02        1.67354e-04
+
+   WCS X: -2.09270e-05        1.00000e+00        2.06173e-08
+   WCS Y:  4.40147e-04       -1.14063e-08        1.00000e+00
+   WCS Z:  1.00000e+00        2.09270e-05       -4.40147e-04
+
+   Constraint Set: ConstraintSet1: KEYEDSHAFT
+
+   Load Set: LoadSet1: KEYEDSHAFT
+
+      Resultant Load on Model:
+         in global X direction:  1.930443e+05
+         in global Y direction: -4.401954e-10
+         in global Z direction:  1.546141e-10
+
+      Measures:
+
+      max_beam_bending:   0.000000e+00
+      max_beam_tensile:   0.000000e+00
+      max_beam_torsion:   0.000000e+00
+      max_beam_total:     0.000000e+00
+      max_disp_mag:       3.075044e-03
+      max_disp_x:         2.943345e-03
+      max_disp_y:         9.518954e-04
+      max_disp_z:        -5.544468e-05
+      max_prin_mag*:      6.568361e+08
+      max_rot_mag:        0.000000e+00
+      max_rot_x:          0.000000e+00
+      max_rot_y:          0.000000e+00
+      max_rot_z:          0.000000e+00
+      max_stress_prin*:   6.568361e+08
+      max_stress_vm*:     4.612672e+08
+      max_stress_xx*:     3.724162e+08
+      max_stress_xy*:    -2.461336e+08
+      max_stress_xz*:    -3.131582e+07
+      max_stress_yy*:     4.611942e+08
+      max_stress_yz*:    -8.003813e+07
+      max_stress_zz*:     2.459286e+08
+      min_stress_prin*:  -4.298266e+08
+      strain_energy:      1.353895e+02
+      Measure1*:          4.612672e+08
+
+   ** Warning: The measures marked by an asterisk (*) were evaluated 
+   at (or close to) results singularities. The values of these  
+   measures may be inaccurate, and you must use engineering judgment 
+   when interpreting them.
+
+Analysis "Shaft_Bending_Stress_Analysis" Completed  (14:06:47)
+
+------------------------------------------------------------
+
+Memory and Disk Usage:
+
+   Machine Type: Windows 64 
+   RAM Allocation for Solver (megabytes): 512.0
+
+   Total Elapsed Time (seconds): 32.20     
+   Total CPU Time     (seconds): 26.50     
+   Maximum Memory Usage (kilobytes): 718073    
+   Working Directory Disk Usage (kilobytes): 108544    
+
+   Results Directory Size (kilobytes):
+   19588 .\Shaft_Bending_Stress_Analysis
+
+   Maximum Data Base Working File Sizes (kilobytes):
+   94208 .\Shaft_Bending_Stress_Analysis.tmp\kel1.bas
+   14336 .\Shaft_Bending_Stress_Analysis.tmp\oel1.bas
+
+------------------------------------------------------------
+Run Completed
+Tue Dec 05, 2017   14:06:47
+------------------------------------------------------------

@@ -1,7 +1,7 @@
 ------------------------------------------------------------
 Creo Simulate Structure Version P-10-28:spg
 Summary for Design Study "Analysis1"
-Tue Dec 05, 2017   12:34:21
+Tue Dec 05, 2017   14:01:05
 ------------------------------------------------------------
 
 Run Settings
@@ -30,17 +30,17 @@ Creo Simulate Structure Model Summary
 
    Model Type: Three Dimensional
 
-   Points:                 68
-   Edges:                 275
-   Faces:                 354
+   Points:                684
+   Edges:                3149
+   Faces:                4339
 
    Springs:                 0
    Masses:                  0
    Beams:                   0
    Shells:                  0
-   Solids:                146
+   Solids:               1873
 
-   Elements:              146
+   Elements:             1873
 
 ------------------------------------------------------------
 
@@ -51,87 +51,87 @@ Static Analysis "Analysis1":
    Convergence Method: Single-Pass Adaptive
    Plotting Grid:      4
 
-   Convergence Loop Log:                         (12:34:23)
+   Convergence Loop Log:                         (14:01:08)
 
    >> Pass  1 <<
-         Calculating Element Equations           (12:34:23)
-            Total Number of Equations:    2805
+         Calculating Element Equations           (14:01:08)
+            Total Number of Equations:   29994
             Maximum Edge Order:              3
-         Solving Equations                       (12:34:24)
-         Post-Processing Solution                (12:34:24)
-         Checking Convergence                    (12:34:24)
-         Resource Check                          (12:34:24)
-            Elapsed Time     (sec):       3.28
-            CPU Time         (sec):       1.22
-            Memory Usage      (kb):     562914
-            Wrk Dir Dsk Usage (kb):       2048
+         Solving Equations                       (14:01:08)
+         Post-Processing Solution                (14:01:09)
+         Checking Convergence                    (14:01:10)
+         Resource Check                          (14:01:10)
+            Elapsed Time     (sec):       5.72
+            CPU Time         (sec):       4.36
+            Memory Usage      (kb):     608930
+            Wrk Dir Dsk Usage (kb):      36864
 
    >> Pass  2 <<
-         Calculating Element Equations           (12:34:25)
-            Total Number of Equations:    3414
-            Maximum Edge Order:              6
-         Solving Equations                       (12:34:25)
-         Post-Processing Solution                (12:34:25)
-         Checking Convergence                    (12:34:25)
-         Calculating Disp and Stress Results     (12:34:25)
+         Calculating Element Equations           (14:01:11)
+            Total Number of Equations:   66189
+            Maximum Edge Order:              8
+         Solving Equations                       (14:01:14)
+         Post-Processing Solution                (14:01:15)
+         Checking Convergence                    (14:01:17)
+         Calculating Disp and Stress Results     (14:01:17)
 
          RMS Stress Error Estimates:
 
          Load Set          Stress Error  % of Max Prin Str
          ----------------  ------------  -----------------
-         LoadSet1           3.33e+05       0.8% of  4.21e+07
+         LoadSet1           1.14e+07       0.9% of  1.31e+09
 
-         Resource Check                          (12:34:26)
-            Elapsed Time     (sec):       4.85
-            CPU Time         (sec):       1.72
-            Memory Usage      (kb):     571998
-            Wrk Dir Dsk Usage (kb):       3072
+         Resource Check                          (14:01:21)
+            Elapsed Time     (sec):      16.59
+            CPU Time         (sec):      13.30
+            Memory Usage      (kb):     636837
+            Wrk Dir Dsk Usage (kb):     108544
 
-   Total Mass of Model:  2.134520e-02
+   Total Mass of Model:  2.146706e-02
 
    Total Cost of Model:  0.000000e+00
 
    Mass Moments of Inertia about WCS Origin:
 
-     Ixx:  1.43853e-01
-     Ixy: -1.53867e-09  Iyy:  1.65472e-04
-     Ixz:  7.11395e-11  Iyz:  8.55405e-05  Izz:  1.43857e-01
+     Ixx:  1.44454e-01
+     Ixy: -3.43835e-09  Iyy:  1.67406e-04
+     Ixz: -6.88044e-11  Iyz:  8.55428e-05  Izz:  1.44457e-01
 
    Principal MMOI and Principal Axes Relative to WCS Origin:
 
             Max Prin           Mid Prin           Min Prin
-           1.43857e-01        1.43853e-01        1.65421e-04
+           1.44457e-01        1.44454e-01        1.67355e-04
 
-   WCS X:  2.07427e-05        1.00000e+00        1.07087e-08
-   WCS Y:  5.95307e-04       -2.30570e-08        1.00000e+00
-   WCS Z:  1.00000e+00       -2.07427e-05       -5.95307e-04
+   WCS X: -2.09269e-05        1.00000e+00        2.38297e-08
+   WCS Y:  5.92854e-04       -1.14231e-08        1.00000e+00
+   WCS Z:  1.00000e+00        2.09269e-05       -5.92854e-04
 
    Center of Mass Location Relative to WCS Origin:
-                  ( 1.00052e-07,  2.24324e+00, -1.45184e-03)
+                  ( 5.57894e-08,  2.23799e+00, -1.44368e-03)
 
    Mass Moments of Inertia about the Center of Mass:
 
-     Ixx:  3.64419e-02
-     Ixy:  3.25207e-09  Iyy:  1.65427e-04
-     Ixz:  6.80388e-11  Iyz:  1.60230e-05  Izz:  3.64452e-02
+     Ixx:  3.69337e-02
+     Ixy: -7.58052e-10  Iyy:  1.67361e-04
+     Ixz: -7.05334e-11  Iyz:  1.61841e-05  Izz:  3.69371e-02
 
    Principal MMOI and Principal Axes Relative to COM:
 
             Max Prin           Mid Prin           Min Prin
-           3.64453e-02        3.64419e-02        1.65420e-04
+           3.69371e-02        3.69337e-02        1.67354e-04
 
-   WCS X:  2.05147e-05        1.00000e+00       -8.96461e-08
-   WCS Y:  4.41650e-04        8.05857e-08        1.00000e+00
-   WCS Z:  1.00000e+00       -2.05147e-05       -4.41650e-04
+   WCS X: -2.09270e-05        1.00000e+00        2.06173e-08
+   WCS Y:  4.40147e-04       -1.14063e-08        1.00000e+00
+   WCS Z:  1.00000e+00        2.09270e-05       -4.40147e-04
 
-   Constraint Set: ConstraintSet1: KEYED_SHAFT
+   Constraint Set: ConstraintSet1: KEYEDSHAFT
 
-   Load Set: LoadSet1: KEYED_SHAFT
+   Load Set: LoadSet1: KEYEDSHAFT
 
       Resultant Load on Model:
-         in global X direction: -1.930443e+04
-         in global Y direction: -1.650909e-07
-         in global Z direction: -7.263413e-09
+         in global X direction:  3.860886e+05
+         in global Y direction: -1.891749e-10
+         in global Z direction:  1.147782e-09
 
       Measures:
 
@@ -139,27 +139,33 @@ Static Analysis "Analysis1":
       max_beam_tensile:   0.000000e+00
       max_beam_torsion:   0.000000e+00
       max_beam_total:     0.000000e+00
-      max_disp_mag:       2.943368e-01
-      max_disp_x:        -2.941503e-01
-      max_disp_y:        -1.091570e-02
-      max_disp_z:         1.249000e-04
-      max_prin_mag:      -4.208967e+07
+      max_disp_mag:       6.150087e-03
+      max_disp_x:         5.886690e-03
+      max_disp_y:         1.903791e-03
+      max_disp_z:        -1.108894e-04
+      max_prin_mag*:      1.313672e+09
       max_rot_mag:        0.000000e+00
       max_rot_x:          0.000000e+00
       max_rot_y:          0.000000e+00
       max_rot_z:          0.000000e+00
-      max_stress_prin:    3.312703e+07
-      max_stress_vm:      2.754931e+07
-      max_stress_xx:     -1.654020e+07
-      max_stress_xy:     -9.767344e+06
-      max_stress_xz:      9.252814e+05
-      max_stress_yy:     -3.835555e+07
-      max_stress_yz:      6.637849e+06
-      max_stress_zz:     -1.668603e+07
-      min_stress_prin:   -4.208967e+07
-      strain_energy:      1.125491e+03
+      max_stress_prin*:   1.313672e+09
+      max_stress_vm*:     9.225345e+08
+      max_stress_xx*:     7.448324e+08
+      max_stress_xy*:    -4.922671e+08
+      max_stress_xz*:    -6.263164e+07
+      max_stress_yy*:     9.223883e+08
+      max_stress_yz*:    -1.600763e+08
+      max_stress_zz*:     4.918572e+08
+      min_stress_prin*:  -8.596533e+08
+      strain_energy:      5.415580e+02
+      Measure1*:          9.225345e+08
 
-Analysis "Analysis1" Completed  (12:34:27)
+   ** Warning: The measures marked by an asterisk (*) were evaluated 
+   at (or close to) results singularities. The values of these  
+   measures may be inaccurate, and you must use engineering judgment 
+   when interpreting them.
+
+Analysis "Analysis1" Completed  (14:01:22)
 
 ------------------------------------------------------------
 
@@ -168,18 +174,19 @@ Memory and Disk Usage:
    Machine Type: Windows 64 
    RAM Allocation for Solver (megabytes): 512.0
 
-   Total Elapsed Time (seconds): 5.61      
-   Total CPU Time     (seconds): 1.80      
-   Maximum Memory Usage (kilobytes): 571998    
-   Working Directory Disk Usage (kilobytes): 3072      
+   Total Elapsed Time (seconds): 17.35     
+   Total CPU Time     (seconds): 13.44     
+   Maximum Memory Usage (kilobytes): 636837    
+   Working Directory Disk Usage (kilobytes): 108544    
 
    Results Directory Size (kilobytes):
-   1767 .\Analysis1
+   19585 .\Analysis1
 
    Maximum Data Base Working File Sizes (kilobytes):
-   3072 .\Analysis1.tmp\kel1.bas
+   94208 .\Analysis1.tmp\kel1.bas
+   14336 .\Analysis1.tmp\oel1.bas
 
 ------------------------------------------------------------
 Run Completed
-Tue Dec 05, 2017   12:34:27
+Tue Dec 05, 2017   14:01:22
 ------------------------------------------------------------

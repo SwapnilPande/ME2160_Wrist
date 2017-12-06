@@ -1,0 +1,70 @@
+<results>
+  <header/>
+<!--Result Definition for Shaft_Bending-->
+  <resultWindow name="Shaft_Bending" product="mechanica" visible="true">
+<!--Application Specific Info-->
+    <appInfo>
+      <study id="1432" name="Shaft_Bending_Stress_Analysis" path=".\" type="4">
+        <analysis id="1428" name="Shaft_Bending_Stress_Analysis"/>
+        <loadModeInfo type="4" action="4">
+          <loadModeScale scale="1.000000" included="true"/>
+        </loadModeInfo>
+      </study>
+      <location useAll="false" geomLocationType="all"/>
+      <relativeTo id="214" to="csys"/>
+    </appInfo>
+    <genInfo windowTitle="Shaft_Bending_analysis" lastViewedTab="quantity">
+      <quantity unit="lbm/(in sec^2)" averaged="false" component="31" rangeClass="0" phaseAmplitude="151" rangeDimension="1"/>
+      <display type="fringe" exploded="false" backGroundColor="0">
+        <threeD loads="false" shaded="true" overlay="false" coordSys="true" csysTriad="true" constraints="false" elementEdges="false" bondingElements="false" overlayTransparent="false">
+          <numberDisplay nodeNumber="false" resultValue="false" elementNumber="false"/>
+        </threeD>
+        <fringeInfo contour="false" continuous="false" isoSurface="false" labelContour="false" contourLabelDensity="2"/>
+        <deformInfo deformed="false"/>
+        <legendInfo>
+          <valueInfo maxValue="  4.612672E+008" minLevel="true" minValue="  4.559593E+001" showMaxMin="true" scaleMaxMin="true" numContourLevels="9" transparentFringes="false">
+            <legendLevel>
+                5.000000E+007
+            </legendLevel>
+            <legendLevel>
+                1.000000E+008
+            </legendLevel>
+            <legendLevel>
+                1.500000E+008
+            </legendLevel>
+            <legendLevel>
+                2.000000E+008
+            </legendLevel>
+            <legendLevel>
+                2.500000E+008
+            </legendLevel>
+            <legendLevel>
+                3.000000E+008
+            </legendLevel>
+            <legendLevel>
+                3.500000E+008
+            </legendLevel>
+            <legendLevel>
+                4.000000E+008
+            </legendLevel>
+            <legendLevel>
+                4.500000E+008
+            </legendLevel>
+          </valueInfo>
+          <colorInfo invert="false" colorSpectrum="default"/>
+        </legendInfo>
+        <visibilityInfo csys="true" label="true" title="true" legend="true" contourLabels="false"/>
+      </display>
+      <viewInfo winWidth="11.795333" winHeight="6.890000">
+        <windowPlacement xy0="0.000000" xy1="0.000000" orientation="0.000000" magnification="1.000000"/>
+        <viewMatrix>
+          <row0 col0="1.8003249202" col1="0.0000000000" col2="0.7611651678"/>
+          <row1 col0="-0.5962411586" col1="1.2150117352" col2="1.4102429561"/>
+          <row2 col0="-0.4731478558" col1="-1.5311070225" col2="1.1190999165"/>
+          <row3 col0="0.0000000000" col1="0.0000000000" col2="0.0000000000"/>
+        </viewMatrix>
+      </viewInfo>
+    </genInfo>
+  </resultWindow>
+</results>
+

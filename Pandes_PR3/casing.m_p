@@ -1,0 +1,38 @@
+﻿                       MASS PROPERTIES OF THE PART CASING
+
+                         VOLUME =  9.8379346e+00 INCH^3
+                   SURFACE AREA =  8.5990696e+01 INCH^2
+                        DENSITY =  3.0924962e-02 POUND / INCH^3
+                           MASS =  3.0423775e-01 POUND 
+
+           CENTER OF GRAVITY with respect to _CASING coordinate frame:
+X   Y   Z          -7.0450483e-02  2.0847502e+00 -3.8889637e-02  INCH
+
+       INERTIA with respect to _CASING coordinate frame:  (POUND * INCH^2)
+
+INERTIA TENSOR:
+Ixx Ixy Ixz         2.2116135e+00  2.2955501e-02  0.0000000e+00
+Iyx Iyy Iyz         2.2955501e-02  5.3743066e-01  4.1328113e-02
+Izx Izy Izz         0.0000000e+00  4.1328113e-02  2.2339480e+00
+
+     INERTIA at CENTER OF GRAVITY with respect to _CASING coordinate frame:
+                                                           (POUND * INCH^2)     
+INERTIA TENSOR:
+Ixx Ixy Ixz         8.8888030e-01 -2.1728403e-02  8.3330233e-04
+Iyx Iyy Iyz        -2.1728403e-02  5.3546051e-01  1.6661982e-02
+Izx Izy Izz         8.3330233e-04  1.6661982e-02  9.1016494e-01
+
+                 PRINCIPAL MOMENTS OF INERTIA:  (POUND * INCH^2)
+I1  I2  I3          5.3339106e-01  8.9020948e-01  9.1090521e-01
+
+           ROTATION MATRIX from _CASING orientation to PRINCIPAL AXES:
+                       0.06105       -0.99811       -0.00630
+                       0.99715        0.06071        0.04470
+                      -0.04423       -0.00901        0.99898
+
+      ROTATION ANGLES from _CASING orientation to PRINCIPAL AXES (degrees):
+angles about x  y  z   -2.562         -0.361         86.500 
+
+                RADII OF GYRATION with respect to PRINCIPAL AXES:
+R1  R2  R3          1.3240864e+00  1.7105649e+00  1.7303344e+00  INCH
+

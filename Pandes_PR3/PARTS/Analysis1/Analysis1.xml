@@ -15,7 +15,7 @@
         <REPORT_DATA>NULL</REPORT_DATA>
         <MODEL SOAP-ENC:Array="[1]">
             <MODEL_ENTRY pointer="TRUE">
-                <MODEL_DATA ID="0" URL="NULL" NAME="KEYED_SHAFT" TYPE="PART" FILE_EXT="PRT" MODEL_SIZE="0"/>
+                <MODEL_DATA ID="0" URL="NULL" NAME="KEYEDSHAFT" TYPE="PART" FILE_EXT="PRT" MODEL_SIZE="0"/>
                 <MODEL_OPERS>NULL</MODEL_OPERS>
                 <APPLICATIONS pointer="TRUE">
                     <SHEET_METAL>NULL</SHEET_METAL>
@@ -48,26 +48,29 @@
                                 <SIM_DB_LOADSET pointer="TRUE" ICON_NAME="">
                                     <LOADSET_ARRAY SOAP-ENC:Array="[2]">
                                         <LOADSET_ARRAY_ENTRY MODE="STRUCTURAL" TYPE="LOAD_SET" pointer="TRUE">
-                                            <SIM_OBJECT ID="52" NAME="LoadSet1" TYPE="SIM_LOAD_SET" ACTIVE="ACTIVE" pointer="TRUE" ICON_NAME="sim_loadset_16" MODEL_EXT_NAME="KEYED_SHAFT.PRT" MODEL_INT_NAME="KEYED_SHAFT.PRT">
+                                            <SIM_OBJECT ID="52" NAME="LoadSet1" TYPE="SIM_LOAD_SET" ACTIVE="ACTIVE" pointer="TRUE" ICON_NAME="sim_loadset_16" MODEL_EXT_NAME="KEYEDSHAFT.PRT" MODEL_INT_NAME="KEYEDSHAFT.PRT">
                                                 <SIM_OBJ_LAYERS>NULL</SIM_OBJ_LAYERS>
                                             </SIM_OBJECT>
                                             <DESCRIPTION>NULL</DESCRIPTION>
                                             <LOADS pointer="TRUE">
                                                 <OBJECT_ARRAY SOAP-ENC:Array="[1]">
-                                                    <OBJECT_ARRAY_ENTRY ID="54" NAME="Load1" TYPE="SIM_LOAD" ACTIVE="ACTIVE" pointer="TRUE" ICON_NAME="sim_load_force_16" MODEL_EXT_NAME="KEYED_SHAFT.PRT" MODEL_INT_NAME="KEYED_SHAFT.PRT">
+                                                    <OBJECT_ARRAY_ENTRY ID="53" NAME="Load1" TYPE="SIM_LOAD" ACTIVE="ACTIVE" pointer="TRUE" ICON_NAME="sim_load_force_16" MODEL_EXT_NAME="KEYEDSHAFT.PRT" MODEL_INT_NAME="KEYEDSHAFT.PRT">
                                                         <SIM_OBJ_LAYERS pointer="TRUE"/>
                                                     </OBJECT_ARRAY_ENTRY>
                                                 </OBJECT_ARRAY>
                                             </LOADS>
                                         </LOADSET_ARRAY_ENTRY>
                                         <LOADSET_ARRAY_ENTRY MODE="STRUCTURAL" TYPE="CONSTR_SET" pointer="TRUE">
-                                            <SIM_OBJECT ID="55" NAME="ConstraintSet1" TYPE="SIM_LOAD_SET" ACTIVE="ACTIVE" pointer="TRUE" ICON_NAME="sim_constrset_16" MODEL_EXT_NAME="KEYED_SHAFT.PRT" MODEL_INT_NAME="KEYED_SHAFT.PRT">
+                                            <SIM_OBJECT ID="54" NAME="ConstraintSet1" TYPE="SIM_LOAD_SET" ACTIVE="ACTIVE" pointer="TRUE" ICON_NAME="sim_constrset_16" MODEL_EXT_NAME="KEYEDSHAFT.PRT" MODEL_INT_NAME="KEYEDSHAFT.PRT">
                                                 <SIM_OBJ_LAYERS>NULL</SIM_OBJ_LAYERS>
                                             </SIM_OBJECT>
                                             <DESCRIPTION>NULL</DESCRIPTION>
                                             <LOADS pointer="TRUE">
-                                                <OBJECT_ARRAY SOAP-ENC:Array="[1]">
-                                                    <OBJECT_ARRAY_ENTRY ID="56" NAME="Constraint1" TYPE="SIM_LOAD" ACTIVE="ACTIVE" pointer="TRUE" ICON_NAME="sim_constraint_16" MODEL_EXT_NAME="KEYED_SHAFT.PRT" MODEL_INT_NAME="KEYED_SHAFT.PRT">
+                                                <OBJECT_ARRAY SOAP-ENC:Array="[2]">
+                                                    <OBJECT_ARRAY_ENTRY ID="58" NAME="Constraint1" TYPE="SIM_LOAD" ACTIVE="ACTIVE" pointer="TRUE" ICON_NAME="sim_constraint_16" MODEL_EXT_NAME="KEYEDSHAFT.PRT" MODEL_INT_NAME="KEYEDSHAFT.PRT">
+                                                        <SIM_OBJ_LAYERS pointer="TRUE"/>
+                                                    </OBJECT_ARRAY_ENTRY>
+                                                    <OBJECT_ARRAY_ENTRY ID="59" NAME="Constraint2" TYPE="SIM_LOAD" ACTIVE="ACTIVE" pointer="TRUE" ICON_NAME="sim_constraint_16" MODEL_EXT_NAME="KEYEDSHAFT.PRT" MODEL_INT_NAME="KEYEDSHAFT.PRT">
                                                         <SIM_OBJ_LAYERS pointer="TRUE"/>
                                                     </OBJECT_ARRAY_ENTRY>
                                                 </OBJECT_ARRAY>
@@ -76,15 +79,15 @@
                                     </LOADSET_ARRAY>
                                 </SIM_DB_LOADSET>
                                 <SIM_DB_LOAD pointer="TRUE" ICON_NAME="">
-                                    <LOAD_ARRAY SOAP-ENC:Array="[2]">
+                                    <LOAD_ARRAY SOAP-ENC:Array="[3]">
                                         <LOAD_ARRAY_ENTRY pointer="TRUE">
-                                            <SIM_OBJECT ID="54" NAME="Load1" TYPE="SIM_LOAD" ACTIVE="ACTIVE" pointer="TRUE" ICON_NAME="sim_load_force_16" MODEL_EXT_NAME="KEYED_SHAFT.PRT" MODEL_INT_NAME="KEYED_SHAFT.PRT">
+                                            <SIM_OBJECT ID="53" NAME="Load1" TYPE="SIM_LOAD" ACTIVE="ACTIVE" pointer="TRUE" ICON_NAME="sim_load_force_16" MODEL_EXT_NAME="KEYEDSHAFT.PRT" MODEL_INT_NAME="KEYEDSHAFT.PRT">
                                                 <SIM_OBJ_LAYERS pointer="TRUE"/>
                                             </SIM_OBJECT>
                                             <REFS pointer="TRUE">
                                                 <REFS_ARRAY SOAP-ENC:Array="[2]">
-                                                    <REFS_ARRAY_ENTRY ID="57" NAME="" TYPE="SURFACE" STATUS="ACTIVE" SURF_0="0" SURF_1="0" pointer="TRUE" REVERSED="0" SIMP_REP="" ITEM_NAME="SURFACE" DBG_REF_ID="" MEMB_ID_TAB="" DEF_MODEL_EXT="KEYED_SHAFT.PRT" DEF_MODEL_INT="KEYED_SHAFT.PRT" REF_MODEL_EXT="KEYED_SHAFT.PRT" REF_MODEL_INT="KEYED_SHAFT.PRT"/>
-                                                    <REFS_ARRAY_ENTRY ID="55" NAME="" TYPE="SURFACE" STATUS="ACTIVE" SURF_0="0" SURF_1="0" pointer="TRUE" REVERSED="0" SIMP_REP="" ITEM_NAME="SURFACE" DBG_REF_ID="" MEMB_ID_TAB="" DEF_MODEL_EXT="KEYED_SHAFT.PRT" DEF_MODEL_INT="KEYED_SHAFT.PRT" REF_MODEL_EXT="KEYED_SHAFT.PRT" REF_MODEL_INT="KEYED_SHAFT.PRT"/>
+                                                    <REFS_ARRAY_ENTRY ID="192" NAME="" TYPE="SURFACE" STATUS="ACTIVE" SURF_0="0" SURF_1="0" pointer="TRUE" REVERSED="0" SIMP_REP="" ITEM_NAME="SURFACE" DBG_REF_ID="" MEMB_ID_TAB="" DEF_MODEL_EXT="KEYEDSHAFT.PRT" DEF_MODEL_INT="KEYEDSHAFT.PRT" REF_MODEL_EXT="KEYEDSHAFT.PRT" REF_MODEL_INT="KEYEDSHAFT.PRT"/>
+                                                    <REFS_ARRAY_ENTRY ID="194" NAME="" TYPE="SURFACE" STATUS="ACTIVE" SURF_0="0" SURF_1="0" pointer="TRUE" REVERSED="0" SIMP_REP="" ITEM_NAME="SURFACE" DBG_REF_ID="" MEMB_ID_TAB="" DEF_MODEL_EXT="KEYEDSHAFT.PRT" DEF_MODEL_INT="KEYEDSHAFT.PRT" REF_MODEL_EXT="KEYEDSHAFT.PRT" REF_MODEL_INT="KEYEDSHAFT.PRT"/>
                                                 </REFS_ARRAY>
                                             </REFS>
                                             <DATA EXPR="" MODE="STRUCTURAL" TYPE="LOAD" pointer="TRUE" LOAD_TYPE="FORCE">
@@ -98,12 +101,12 @@
                                                         <INTERPOL>NULL</INTERPOL>
                                                         <EXT_FIELD>NULL</EXT_FIELD>
                                                     </VARIATION>
-                                                    <CSYS ID="-2" NAME="" TYPE="COORD_SYSTEM" STATUS="ACTIVE" SURF_0="0" SURF_1="0" pointer="TRUE" REVERSED="0" SIMP_REP="" ITEM_NAME="COORDINATE_SYSTEM" DBG_REF_ID="" MEMB_ID_TAB="" DEF_MODEL_EXT="KEYED_SHAFT.PRT" DEF_MODEL_INT="KEYED_SHAFT.PRT" REF_MODEL_EXT="KEYED_SHAFT.PRT" REF_MODEL_INT="KEYED_SHAFT.PRT"/>
+                                                    <CSYS ID="-2" NAME="" TYPE="COORD_SYSTEM" STATUS="ACTIVE" SURF_0="0" SURF_1="0" pointer="TRUE" REVERSED="0" SIMP_REP="" ITEM_NAME="COORDINATE_SYSTEM" DBG_REF_ID="" MEMB_ID_TAB="" DEF_MODEL_EXT="KEYEDSHAFT.PRT" DEF_MODEL_INT="KEYEDSHAFT.PRT" REF_MODEL_EXT="KEYEDSHAFT.PRT" REF_MODEL_INT="KEYEDSHAFT.PRT"/>
                                                     <FORCE pointer="TRUE" DIR_TYPE="DIR_BY_VEC" CSYS_TYPE="CARTESIAN">
                                                         <DIR pointer="TRUE">
                                                             <VAR_SCALAR_ARRAY SOAP-ENC:Array="[3]">
                                                                 <VAR_SCALAR_ARRAY_ENTRY PREFIX="X" pointer="TRUE">
-                                                                    <SCALAR pointer="TRUE" UNIT_CUR="lbf" UNIT_TOP="in lbm / sec^2" VALUE_CUR="-50" VALUE_TOP="-19304.4"/>
+                                                                    <SCALAR pointer="TRUE" UNIT_CUR="lbf" UNIT_TOP="in lbm / sec^2" VALUE_CUR="1000" VALUE_TOP="386089"/>
                                                                     <VARIATION TYPE="UNIFORM" DOMAIN="SPATIAL" pointer="TRUE">
                                                                         <FUNC>NULL</FUNC>
                                                                         <INTERPOL>NULL</INTERPOL>
@@ -183,19 +186,69 @@
                                             </DATA>
                                         </LOAD_ARRAY_ENTRY>
                                         <LOAD_ARRAY_ENTRY pointer="TRUE">
-                                            <SIM_OBJECT ID="56" NAME="Constraint1" TYPE="SIM_LOAD" ACTIVE="ACTIVE" pointer="TRUE" ICON_NAME="sim_constraint_16" MODEL_EXT_NAME="KEYED_SHAFT.PRT" MODEL_INT_NAME="KEYED_SHAFT.PRT">
+                                            <SIM_OBJECT ID="58" NAME="Constraint1" TYPE="SIM_LOAD" ACTIVE="ACTIVE" pointer="TRUE" ICON_NAME="sim_constraint_16" MODEL_EXT_NAME="KEYEDSHAFT.PRT" MODEL_INT_NAME="KEYEDSHAFT.PRT">
                                                 <SIM_OBJ_LAYERS pointer="TRUE"/>
                                             </SIM_OBJECT>
                                             <REFS pointer="TRUE">
-                                                <REFS_ARRAY SOAP-ENC:Array="[1]">
-                                                    <REFS_ARRAY_ENTRY ID="49" NAME="" TYPE="SURFACE" STATUS="ACTIVE" SURF_0="0" SURF_1="0" pointer="TRUE" REVERSED="0" SIMP_REP="" ITEM_NAME="SURFACE" DBG_REF_ID="" MEMB_ID_TAB="" DEF_MODEL_EXT="KEYED_SHAFT.PRT" DEF_MODEL_INT="KEYED_SHAFT.PRT" REF_MODEL_EXT="KEYED_SHAFT.PRT" REF_MODEL_INT="KEYED_SHAFT.PRT"/>
+                                                <REFS_ARRAY SOAP-ENC:Array="[2]">
+                                                    <REFS_ARRAY_ENTRY ID="256" NAME="" TYPE="SURFACE" STATUS="ACTIVE" SURF_0="0" SURF_1="0" pointer="TRUE" REVERSED="0" SIMP_REP="" ITEM_NAME="SURFACE" DBG_REF_ID="" MEMB_ID_TAB="" DEF_MODEL_EXT="KEYEDSHAFT.PRT" DEF_MODEL_INT="KEYEDSHAFT.PRT" REF_MODEL_EXT="KEYEDSHAFT.PRT" REF_MODEL_INT="KEYEDSHAFT.PRT"/>
+                                                    <REFS_ARRAY_ENTRY ID="254" NAME="" TYPE="SURFACE" STATUS="ACTIVE" SURF_0="0" SURF_1="0" pointer="TRUE" REVERSED="0" SIMP_REP="" ITEM_NAME="SURFACE" DBG_REF_ID="" MEMB_ID_TAB="" DEF_MODEL_EXT="KEYEDSHAFT.PRT" DEF_MODEL_INT="KEYEDSHAFT.PRT" REF_MODEL_EXT="KEYEDSHAFT.PRT" REF_MODEL_INT="KEYEDSHAFT.PRT"/>
                                                 </REFS_ARRAY>
                                             </REFS>
                                             <DATA EXPR="" MODE="STRUCTURAL" TYPE="CONSTRAINT" pointer="TRUE" LOAD_TYPE="DISPLACEMENT">
                                                 <SCALAR>NULL</SCALAR>
                                                 <VECTOR>NULL</VECTOR>
                                                 <DISP_DATA TYPE="REGULAR" pointer="TRUE" CSYS_TYPE="CARTESIAN">
-                                                    <CSYS ID="-2" NAME="" TYPE="COORD_SYSTEM" STATUS="ACTIVE" SURF_0="0" SURF_1="0" pointer="TRUE" REVERSED="0" SIMP_REP="" ITEM_NAME="COORDINATE_SYSTEM" DBG_REF_ID="" MEMB_ID_TAB="" DEF_MODEL_EXT="KEYED_SHAFT.PRT" DEF_MODEL_INT="KEYED_SHAFT.PRT" REF_MODEL_EXT="KEYED_SHAFT.PRT" REF_MODEL_INT="KEYED_SHAFT.PRT"/>
+                                                    <CSYS ID="-2" NAME="" TYPE="COORD_SYSTEM" STATUS="ACTIVE" SURF_0="0" SURF_1="0" pointer="TRUE" REVERSED="0" SIMP_REP="" ITEM_NAME="COORDINATE_SYSTEM" DBG_REF_ID="" MEMB_ID_TAB="" DEF_MODEL_EXT="KEYEDSHAFT.PRT" DEF_MODEL_INT="KEYEDSHAFT.PRT" REF_MODEL_EXT="KEYEDSHAFT.PRT" REF_MODEL_INT="KEYEDSHAFT.PRT"/>
+                                                    <TRANSLATION pointer="TRUE">
+                                                        <VAR_SCALAR_ARRAY SOAP-ENC:Array="[3]">
+                                                            <VAR_SCALAR_ARRAY_ENTRY PREFIX="X" pointer="TRUE">
+                                                                <SCALAR>NULL</SCALAR>
+                                                                <VARIATION>NULL</VARIATION>
+                                                            </VAR_SCALAR_ARRAY_ENTRY>
+                                                            <VAR_SCALAR_ARRAY_ENTRY PREFIX="Y" pointer="TRUE">
+                                                                <SCALAR>NULL</SCALAR>
+                                                                <VARIATION>NULL</VARIATION>
+                                                            </VAR_SCALAR_ARRAY_ENTRY>
+                                                            <VAR_SCALAR_ARRAY_ENTRY PREFIX="Z" pointer="TRUE">
+                                                                <SCALAR>NULL</SCALAR>
+                                                                <VARIATION>NULL</VARIATION>
+                                                            </VAR_SCALAR_ARRAY_ENTRY>
+                                                        </VAR_SCALAR_ARRAY>
+                                                    </TRANSLATION>
+                                                    <ROTATION pointer="TRUE"/>
+                                                    <PIN_DATA>NULL</PIN_DATA>
+                                                </DISP_DATA>
+                                                <SYMMETRY>NULL</SYMMETRY>
+                                                <FORCE>NULL</FORCE>
+                                                <BEARING>NULL</BEARING>
+                                                <CENTRIFUGAL_DATA>NULL</CENTRIFUGAL_DATA>
+                                                <GRAVITY_DATA>NULL</GRAVITY_DATA>
+                                                <STR_TEMP_DATA>NULL</STR_TEMP_DATA>
+                                                <PRELOAD_DATA>NULL</PRELOAD_DATA>
+                                                <TM_DATA>NULL</TM_DATA>
+                                                <CONVECTION_DATA>NULL</CONVECTION_DATA>
+                                                <MECT_TEMP_DATA>NULL</MECT_TEMP_DATA>
+                                                <MECT_H_TEMP_DATA>NULL</MECT_H_TEMP_DATA>
+                                                <RADIATION_DATA>NULL</RADIATION_DATA>
+                                                <HEAT_DATA>NULL</HEAT_DATA>
+                                            </DATA>
+                                        </LOAD_ARRAY_ENTRY>
+                                        <LOAD_ARRAY_ENTRY pointer="TRUE">
+                                            <SIM_OBJECT ID="59" NAME="Constraint2" TYPE="SIM_LOAD" ACTIVE="ACTIVE" pointer="TRUE" ICON_NAME="sim_constraint_16" MODEL_EXT_NAME="KEYEDSHAFT.PRT" MODEL_INT_NAME="KEYEDSHAFT.PRT">
+                                                <SIM_OBJ_LAYERS pointer="TRUE"/>
+                                            </SIM_OBJECT>
+                                            <REFS pointer="TRUE">
+                                                <REFS_ARRAY SOAP-ENC:Array="[2]">
+                                                    <REFS_ARRAY_ENTRY ID="225" NAME="" TYPE="SURFACE" STATUS="ACTIVE" SURF_0="0" SURF_1="0" pointer="TRUE" REVERSED="0" SIMP_REP="" ITEM_NAME="SURFACE" DBG_REF_ID="" MEMB_ID_TAB="" DEF_MODEL_EXT="KEYEDSHAFT.PRT" DEF_MODEL_INT="KEYEDSHAFT.PRT" REF_MODEL_EXT="KEYEDSHAFT.PRT" REF_MODEL_INT="KEYEDSHAFT.PRT"/>
+                                                    <REFS_ARRAY_ENTRY ID="223" NAME="" TYPE="SURFACE" STATUS="ACTIVE" SURF_0="0" SURF_1="0" pointer="TRUE" REVERSED="0" SIMP_REP="" ITEM_NAME="SURFACE" DBG_REF_ID="" MEMB_ID_TAB="" DEF_MODEL_EXT="KEYEDSHAFT.PRT" DEF_MODEL_INT="KEYEDSHAFT.PRT" REF_MODEL_EXT="KEYEDSHAFT.PRT" REF_MODEL_INT="KEYEDSHAFT.PRT"/>
+                                                </REFS_ARRAY>
+                                            </REFS>
+                                            <DATA EXPR="" MODE="STRUCTURAL" TYPE="CONSTRAINT" pointer="TRUE" LOAD_TYPE="DISPLACEMENT">
+                                                <SCALAR>NULL</SCALAR>
+                                                <VECTOR>NULL</VECTOR>
+                                                <DISP_DATA TYPE="REGULAR" pointer="TRUE" CSYS_TYPE="CARTESIAN">
+                                                    <CSYS ID="-2" NAME="" TYPE="COORD_SYSTEM" STATUS="ACTIVE" SURF_0="0" SURF_1="0" pointer="TRUE" REVERSED="0" SIMP_REP="" ITEM_NAME="COORDINATE_SYSTEM" DBG_REF_ID="" MEMB_ID_TAB="" DEF_MODEL_EXT="KEYEDSHAFT.PRT" DEF_MODEL_INT="KEYEDSHAFT.PRT" REF_MODEL_EXT="KEYEDSHAFT.PRT" REF_MODEL_INT="KEYEDSHAFT.PRT"/>
                                                     <TRANSLATION pointer="TRUE">
                                                         <VAR_SCALAR_ARRAY SOAP-ENC:Array="[3]">
                                                             <VAR_SCALAR_ARRAY_ENTRY PREFIX="X" pointer="TRUE">
@@ -233,7 +286,35 @@
                                     </LOAD_ARRAY>
                                 </SIM_DB_LOAD>
                                 <SIM_DB_ANALYSIS>NULL</SIM_DB_ANALYSIS>
-                                <SIM_DB_MEASURE>NULL</SIM_DB_MEASURE>
+                                <SIM_DB_MEASURE pointer="TRUE" ICON_NAME="sim_measure_16">
+                                    <MEASURE_ARRAY SOAP-ENC:Array="[1]">
+                                        <MEASURE_ARRAY_ENTRY QTY="STRESS" COMP="VON_MISES" pointer="TRUE" EVAL_TYPE="NULL">
+                                            <SIM_OBJECT ID="56" NAME="Measure1" TYPE="SIM_MEASURE" ACTIVE="ACTIVE" pointer="TRUE" ICON_NAME="sim_measure_16" MODEL_EXT_NAME="KEYEDSHAFT.PRT" MODEL_INT_NAME="KEYEDSHAFT.PRT">
+                                                <SIM_OBJ_LAYERS pointer="TRUE"/>
+                                            </SIM_OBJECT>
+                                            <DESCR>NULL</DESCR>
+                                            <MAX_MEAS_VAL>NULL</MAX_MEAS_VAL>
+                                            <MIN_MEAS_VAL>NULL</MIN_MEAS_VAL>
+                                            <SEL_SIM_OBJS>NULL</SEL_SIM_OBJS>
+                                            <REFS pointer="TRUE">
+                                                <REFS_ARRAY SOAP-ENC:Array="[1]">
+                                                    <REFS_ARRAY_ENTRY ID="-1" NAME="" TYPE="MODEL" STATUS="ACTIVE" SURF_0="0" SURF_1="0" pointer="TRUE" REVERSED="0" SIMP_REP="" ITEM_NAME="COMPONENT" DBG_REF_ID="" MEMB_ID_TAB="" DEF_MODEL_EXT="KEYEDSHAFT.PRT" DEF_MODEL_INT="KEYEDSHAFT.PRT" REF_MODEL_EXT="KEYEDSHAFT.PRT" REF_MODEL_INT="KEYEDSHAFT.PRT"/>
+                                                </REFS_ARRAY>
+                                            </REFS>
+                                            <SEC_REFS>NULL</SEC_REFS>
+                                            <SD_EVAL SIDE="NULL" pointer="TRUE" DYN_EVAL="NULL" SPAT_LOC="SD_LOC_ALL" SPAT_EVAL="SD_EVAL_MAX">
+                                                <RADIUS>NULL</RADIUS>
+                                                <CSYS_REF>NULL</CSYS_REF>
+                                                <M_DATA>NULL</M_DATA>
+                                                <S_DATA>NULL</S_DATA>
+                                                <T_DATA>NULL</T_DATA>
+                                            </SD_EVAL>
+                                            <TIME_EVAL>NULL</TIME_EVAL>
+                                            <WSTR_STOR>NULL</WSTR_STOR>
+                                            <VIS_HIGHER_LEVEL VALUE="NO" pointer="TRUE"/>
+                                        </MEASURE_ARRAY_ENTRY>
+                                    </MEASURE_ARRAY>
+                                </SIM_DB_MEASURE>
                                 <SIM_DB_MATERIAL pointer="TRUE" ICON_NAME="sim_material_16">
                                     <MATERIAL_ARRAY SOAP-ENC:Array="[1]">
                                         <MATERIAL_ARRAY_ENTRY NAME="AL6061" TYPE="ISOTROPIC" MATL_ID="-1" pointer="TRUE" SUB_TYPE="LINEAR" ICON_NAME="sim_material_16" THRM_TYPE="ISOTROPIC" MATL_MODEL="NULL" IS_ASSIGNED="1" FAIL_CRITERIA="NONE">
