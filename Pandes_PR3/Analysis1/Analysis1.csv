@@ -1,0 +1,25 @@
+
+Analysis:Analysis1, Loadset:LoadSet1
+max_beam_bending, 0
+max_beam_tensile, 0
+max_beam_torsion, 0
+max_beam_total, 0
+max_disp_mag, 0.000855705, 0.125, -1.24973, 4.16
+max_disp_x, -7.05996e-006, 0.775572, -0.672417, 2.125
+max_disp_y, -0.000854715, 0.125, -1.24973, 4.16
+max_disp_z, -4.13863e-005, -0.125, -1.25, 4.16
+max_prin_mag, -207159, -0.125, 1.11803, 2.375
+max_rot_mag, 0, 0.125, -1.24973, 0.553753
+max_rot_x, 0, 4.95642e-015, -1.12326, 2.324
+max_rot_y, 0, 4.95642e-015, -1.12326, 2.324
+max_rot_z, 0, 4.95642e-015, -1.12326, 2.324
+max_stress_prin, 170178, 0.125, -1.11803, 2.375
+max_stress_vm, 157584, -0.125, 1.11803, 2.375
+max_stress_xx, -109955, -0.125, 1.11803, 2.375
+max_stress_xy, -52898.2, -0.125, 1.11803, 2.375
+max_stress_xz, 74465.3, -1.24523, -0.125, 0.446
+max_stress_yy, -112309, -0.125, 1.11803, 2.375
+max_stress_yz, 72120, -0.125, 1.24523, 0.446
+max_stress_zz, 139851, -1.24414, 0.120855, 0.446
+min_stress_prin, -207159, -0.125, 1.11803, 2.375
+strain_energy, 0.0574583

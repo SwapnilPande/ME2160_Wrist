@@ -1,0 +1,291 @@
+------------------------------------------------------------
+Creo Simulate Structure Version P-10-28:spg
+Log for Design Study "Analysis1"
+Wed Dec 06, 2017   18:23:14
+------------------------------------------------------------
+
+Engine Command with the specified command line options:
+
+ C:\Program Files\PTC\Creo 2.0\Common Files\M110\mech\x86e_win64\bin\msengine.exe  Analysis1  -i  .  -w  .  -solram  512  -sturm  default  -num_threads  ALL 
+
+Begin Creating Database for Design Study
+Wed Dec 06, 2017   18:23:14
+   Elapsed Time       (sec):       0.27
+   CPU Time           (sec):       0.09
+   Memory Usage        (kb):      30663
+   Work Dir Disk Usage (kb):          0
+
+   Step Elapsed Time  (sec):       0.04
+   Step CPU Time      (sec):       0.02
+
+Begin Integrated Mode Error Checking
+Wed Dec 06, 2017   18:23:14
+   Elapsed Time       (sec):       0.31
+   CPU Time           (sec):       0.11
+   Memory Usage        (kb):      30669
+   Work Dir Disk Usage (kb):          0
+Checking the model before creating elements...
+These checks take into account the fact that AutoGEM will
+automatically create elements in volumes with material
+properties, on surfaces with shell properties, and on curves
+with beam section properties.
+
+   Step Elapsed Time  (sec):       0.07
+   Step CPU Time      (sec):       0.02
+
+Begin Generating Elements
+Wed Dec 06, 2017   18:23:14
+   Elapsed Time       (sec):       0.38
+   CPU Time           (sec):       0.13
+   Memory Usage        (kb):      30669
+   Work Dir Disk Usage (kb):          0
+
+Copying elements from an existing study model ...
+Successfully copied elements from an existing study model.
+
+
+A complete set of elements already exists.
+
+OK
+
+
+   Step Elapsed Time  (sec):       0.30
+   Step CPU Time      (sec):       0.23
+
+Begin Integrated Mode Error Checking
+Wed Dec 06, 2017   18:23:14
+   Elapsed Time       (sec):       0.68
+   CPU Time           (sec):       0.36
+   Memory Usage        (kb):      46475
+   Work Dir Disk Usage (kb):          0
+Checking the model after creating elements...
+No errors were found in the model.
+   Step Elapsed Time  (sec):       0.21
+   Step CPU Time      (sec):       0.06
+
+Begin Engine Bookkeeping
+Wed Dec 06, 2017   18:23:15
+   Elapsed Time       (sec):       0.88
+   CPU Time           (sec):       0.42
+   Memory Usage        (kb):      46529
+   Work Dir Disk Usage (kb):          0
+
+   Step Elapsed Time  (sec):       0.09
+   Step CPU Time      (sec):       0.05
+
+Begin Analysis: "Analysis1"
+Wed Dec 06, 2017   18:23:15
+   Elapsed Time       (sec):       0.97
+   CPU Time           (sec):       0.47
+   Memory Usage        (kb):      47047
+   Work Dir Disk Usage (kb):          0
+
+   Step Elapsed Time  (sec):       0.14
+   Step CPU Time      (sec):       0.08
+
+Begin Mass Calculation
+Wed Dec 06, 2017   18:23:15
+   Elapsed Time       (sec):       1.11
+   CPU Time           (sec):       0.55
+   Memory Usage        (kb):      49357
+   Work Dir Disk Usage (kb):          0
+
+   Step Elapsed Time  (sec):       0.19
+   Step CPU Time      (sec):       0.03
+
+Begin P-Loop Pass 1
+Wed Dec 06, 2017   18:23:15
+   Elapsed Time       (sec):       1.31
+   CPU Time           (sec):       0.58
+   Memory Usage        (kb):      50204
+   Work Dir Disk Usage (kb):          0
+
+   Step Elapsed Time  (sec):       0.10
+   Step CPU Time      (sec):       0.03
+
+Begin Element Calculations, Pass 1
+Wed Dec 06, 2017   18:23:15
+   Elapsed Time       (sec):       1.41
+   CPU Time           (sec):       0.61
+   Memory Usage        (kb):      81361
+   Work Dir Disk Usage (kb):          0
+
+   Step Elapsed Time  (sec):       0.14
+   Step CPU Time      (sec):       0.08
+
+Begin Global Matrix Assembly, Pass 1
+Wed Dec 06, 2017   18:23:15
+   Elapsed Time       (sec):       1.56
+   CPU Time           (sec):       0.69
+   Memory Usage        (kb):      83527
+   Work Dir Disk Usage (kb):      12288
+
+   Step Elapsed Time  (sec):       0.05
+   Step CPU Time      (sec):       0.02
+
+Begin Equation Solve, Pass 1
+Wed Dec 06, 2017   18:23:15
+   Elapsed Time       (sec):       1.61
+   CPU Time           (sec):       0.70
+   Memory Usage        (kb):      83527
+   Work Dir Disk Usage (kb):      12288
+
+   Step Elapsed Time  (sec):       0.27
+   Step CPU Time      (sec):       0.23
+
+Begin Load Calculations
+Wed Dec 06, 2017   18:23:16
+   Elapsed Time       (sec):       1.88
+   CPU Time           (sec):       0.94
+   Memory Usage        (kb):     583583
+   Work Dir Disk Usage (kb):      12288
+
+   Step Elapsed Time  (sec):       0.05
+   Step CPU Time      (sec):       0.00
+
+Begin Post-Processing Calculations, Pass 1
+Wed Dec 06, 2017   18:23:16
+   Elapsed Time       (sec):       1.94
+   CPU Time           (sec):       0.94
+   Memory Usage        (kb):     583583
+   Work Dir Disk Usage (kb):      12288
+
+   Step Elapsed Time  (sec):       0.28
+   Step CPU Time      (sec):       0.17
+
+Begin Convergence Check Pass 1
+Wed Dec 06, 2017   18:23:16
+   Elapsed Time       (sec):       2.21
+   CPU Time           (sec):       1.11
+   Memory Usage        (kb):     583583
+   Work Dir Disk Usage (kb):      12288
+
+   Step Elapsed Time  (sec):       0.20
+   Step CPU Time      (sec):       0.14
+
+Begin Strain Energy Calculations
+Wed Dec 06, 2017   18:23:16
+   Elapsed Time       (sec):       2.41
+   CPU Time           (sec):       1.25
+   Memory Usage        (kb):     583583
+   Work Dir Disk Usage (kb):      12288
+
+   Step Elapsed Time  (sec):       0.08
+   Step CPU Time      (sec):       0.03
+
+Begin P-Loop Pass 2
+Wed Dec 06, 2017   18:23:16
+   Elapsed Time       (sec):       2.50
+   CPU Time           (sec):       1.28
+   Memory Usage        (kb):     583583
+   Work Dir Disk Usage (kb):      12288
+
+   Step Elapsed Time  (sec):       0.10
+   Step CPU Time      (sec):       0.03
+
+Begin Element Calculations, Pass 2
+Wed Dec 06, 2017   18:23:16
+   Elapsed Time       (sec):       2.60
+   CPU Time           (sec):       1.31
+   Memory Usage        (kb):     583583
+   Work Dir Disk Usage (kb):      12288
+
+   Step Elapsed Time  (sec):       0.83
+   Step CPU Time      (sec):       0.77
+
+Begin Global Matrix Assembly, Pass 2
+Wed Dec 06, 2017   18:23:17
+   Elapsed Time       (sec):       3.43
+   CPU Time           (sec):       2.08
+   Memory Usage        (kb):     587699
+   Work Dir Disk Usage (kb):      33792
+
+   Step Elapsed Time  (sec):       0.06
+   Step CPU Time      (sec):       0.02
+
+Begin Equation Solve, Pass 2
+Wed Dec 06, 2017   18:23:17
+   Elapsed Time       (sec):       3.49
+   CPU Time           (sec):       2.09
+   Memory Usage        (kb):     587699
+   Work Dir Disk Usage (kb):      33792
+
+   Step Elapsed Time  (sec):       0.41
+   Step CPU Time      (sec):       0.58
+
+Begin Load Calculations
+Wed Dec 06, 2017   18:23:18
+   Elapsed Time       (sec):       3.90
+   CPU Time           (sec):       2.67
+   Memory Usage        (kb):     588617
+   Work Dir Disk Usage (kb):      33792
+
+   Step Elapsed Time  (sec):       0.06
+   Step CPU Time      (sec):       0.00
+
+Begin Post-Processing Calculations, Pass 2
+Wed Dec 06, 2017   18:23:18
+   Elapsed Time       (sec):       3.95
+   CPU Time           (sec):       2.67
+   Memory Usage        (kb):     588617
+   Work Dir Disk Usage (kb):      33792
+
+   Step Elapsed Time  (sec):       0.34
+   Step CPU Time      (sec):       0.31
+
+Begin Convergence Check Pass 2
+Wed Dec 06, 2017   18:23:18
+   Elapsed Time       (sec):       4.29
+   CPU Time           (sec):       2.98
+   Memory Usage        (kb):     588617
+   Work Dir Disk Usage (kb):      33792
+
+   Step Elapsed Time  (sec):       0.28
+   Step CPU Time      (sec):       0.19
+
+Begin Displacement and Stress Calculation
+Wed Dec 06, 2017   18:23:18
+   Elapsed Time       (sec):       4.57
+   CPU Time           (sec):       3.17
+   Memory Usage        (kb):     588617
+   Work Dir Disk Usage (kb):      33792
+
+   Step Elapsed Time  (sec):       0.51
+   Step CPU Time      (sec):       0.22
+
+Begin Reaction Calculation
+Wed Dec 06, 2017   18:23:19
+   Elapsed Time       (sec):       5.08
+   CPU Time           (sec):       3.39
+   Memory Usage        (kb):     588617
+   Work Dir Disk Usage (kb):      33792
+
+   Step Elapsed Time  (sec):       0.16
+   Step CPU Time      (sec):       0.06
+
+Begin Strain Energy Calculations
+Wed Dec 06, 2017   18:23:19
+   Elapsed Time       (sec):       5.24
+   CPU Time           (sec):       3.45
+   Memory Usage        (kb):     588617
+   Work Dir Disk Usage (kb):      33792
+
+   Step Elapsed Time  (sec):       0.16
+   Step CPU Time      (sec):       0.08
+
+Completed P-Loop
+Wed Dec 06, 2017   18:23:19
+   Elapsed Time       (sec):       5.40
+   CPU Time           (sec):       3.53
+   Memory Usage        (kb):     588617
+   Work Dir Disk Usage (kb):      33792
+
+   Step Elapsed Time  (sec):       0.39
+   Step CPU Time      (sec):       0.00
+
+Completed Analysis: Analysis1
+Wed Dec 06, 2017   18:23:20
+   Elapsed Time       (sec):       5.80
+   CPU Time           (sec):       3.53
+   Memory Usage        (kb):     588617
+   Work Dir Disk Usage (kb):      33792

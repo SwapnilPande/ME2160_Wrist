@@ -1,0 +1,19 @@
+#PID -156
+#ErrMsgId 89
+#ErrMsgStr
+Starting analysis Shaft_Bending_Analysis
+#ErrMsgEnd
+#ErrMsgId 90
+#ErrMsgStr
+Starting solution pass 1 - Shaft_Bending_Analysis
+#ErrMsgEnd
+#ErrMsgId 90
+#ErrMsgStr
+Starting solution pass 2 - Shaft_Bending_Analysis
+#ErrMsgEnd
+#ErrMsgId 95
+#ErrMsgId 91
+#ErrMsgStr
+Analysis Shaft_Bending_Analysis completed
+#ErrMsgEnd
+#ErrMsgId 92
